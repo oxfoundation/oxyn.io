@@ -1,0 +1,21 @@
+.separator {
+  margin:27px auto;
+  position: relative;
+  text-align: center;
+  &:before,
+  &:after {
+    top: 15px;
+    width: 40%;
+    display: block;
+    position: absolute;
+    content:"";
+    border-bottom: 1px solid gray("200");
+  }
+  &:before {
+    left: 0;
+
+  }
+  &:after {
+    right: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.page-header {
+  $_gray: gray("200");
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $_gray;
+  border-bottom: 1px solid $_gray;
+  padding-top: 1rem;
+  background-color: $white;
+}

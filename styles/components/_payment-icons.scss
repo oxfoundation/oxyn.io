@@ -1,0 +1,19 @@
+.payment-icons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.payment-icons__icon {
+  border-radius: 2px;
+  overflow: hidden;  
+}
+
+.payment-icons__icon img {
+  height: 25px;
+  //width: 100%;
+}
+
+.payment-icons__border {
+  border:1px solid $input-border-color;
+  border-radius: 2px;
+}

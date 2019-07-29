@@ -1,0 +1,37 @@
+.header {
+    @include transition;
+
+    &.--fixed {
+        position: fixed;
+        z-index: $zindex-fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .tab-links {
+        .tab-link {
+            color: $white;
+        }
+    }
+    .navbar-light .navbar-nav .nav-link {
+        @include transition;
+        &:hover {
+            color: lighten($primary, 13%);
+        }
+    }
+
+    &.--white {
+        background-color: $white;
+        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.213);
+        .tab-links {
+            .tab-link {
+                color: $primary;
+            }
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: $black;
+        }        
+    }
+
+}

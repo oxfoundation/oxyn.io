@@ -1,0 +1,18 @@
+.lightlist {
+  padding-left: 13px;
+  text-align: left;
+}
+
+.lightlist__item {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 5px;
+  &:before {
+    position: absolute;
+    content: '-';
+    color: $primary;
+    left: -10px;
+    top: -2px;
+    font-weight: 500;
+  }
+}

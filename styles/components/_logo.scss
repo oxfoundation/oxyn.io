@@ -1,0 +1,30 @@
+.logo {
+    position: relative;
+    display: block;
+    height: 40px;
+
+    @include e(img) {
+        @include transition;
+        position: absolute;
+        left: 0;
+        top: 0;
+        img > {
+            width: 100%;
+        }
+
+        @include m (colorful) {
+            opacity: 0;
+        }
+    }
+}
+
+.--white .logo{
+    .logo__img {
+        &.logo__img--mono {
+            opacity: 0;
+        }
+        &.logo__img--colorful {
+            opacity: 1;
+        }
+    }
+}

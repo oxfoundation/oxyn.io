@@ -1,0 +1,30 @@
+.Checkout {
+  margin: 0 auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.StripeElement {
+  display: block;
+  max-width: 500px;
+  outline: 0;
+  border-radius: $input-border-radius;
+  padding: .75rem 1.125rem;
+  line-height: 1.5;
+  font-size: 14px;
+  border:1px solid $input-border-color;
+}
+
+.StripeElement--focus {
+  //box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  //transition: all 150ms ease;
+}
+
+.StripeElement--complete {
+  border-color: $primary;
+}
+
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}

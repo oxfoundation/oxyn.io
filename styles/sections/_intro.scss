@@ -1,0 +1,85 @@
+.intro {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 66px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: block;
+        content: '';
+        background-color: rgba($black, .5);
+    }
+}
+
+.intro__contents {
+  max-width: 870px;
+  text-align: center;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  position: relative;
+}
+
+
+.intro__main-title {
+  font-weight: 700;
+  display: inline-block;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.intro__sub-title {
+  font-size: 24px;
+  color: $white;
+  margin-bottom: spacer(5);
+}
+
+.intro__actions {
+  padding: spacer(3) 0;
+  margin: 0 auto;
+}
+
+.intro__input {
+  background-color: rgba($white, .2);
+  &::placeholder {
+    color: $white;
+    // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+    opacity: .7;
+  }
+}
+
+@include media-breakpoint-up ("sm") {
+  .intro__actions {
+    max-width: 350px;
+  }
+  .intro__main-title {
+    font-size: 32px; 
+    padding: 20px 0 15px;
+  }
+}
+
+@include media-breakpoint-up ("md") {
+  .intro__actions {
+    max-width: 550px;
+  }  
+  .intro__main-title {
+    font-size: 32px;
+  }
+}
+
+@include media-breakpoint-up ("lg") {
+
+  .intro__main-title {
+    font-size: 52px;
+    line-height: 1.1;
+  }
+}

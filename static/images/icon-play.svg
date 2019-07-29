@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05" transform="translate(-1069.000000, -484.000000)">
+            <g id="1-screen" transform="translate(0.000000, -63.000000)">
+                <g id="Photo" transform="translate(810.000000, 383.000000)">
+                    <g id="play" transform="translate(260.000000, 165.000000)">
+                        <path d="M24.5497455,42.7862428 C23.6938447,43.4846014 23,43.1507861 23,42.0468304 L23,17.5569425 C23,16.4502178 23.6953559,16.1204047 24.5497455,16.8175302 L38.913488,28.5373964 C39.7693888,29.235755 39.7678776,30.369251 38.913488,31.0663765 L24.5497455,42.7862428 Z" id="Triangle-1-Copy" fill="#FFFFFF"></path>
+                        <circle id="Oval-15" stroke="#FFFFFF" stroke-width="2" cx="30" cy="30" r="30"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

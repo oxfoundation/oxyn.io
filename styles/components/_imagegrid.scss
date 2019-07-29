@@ -1,0 +1,33 @@
+.imagegrid {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.imagegrid__image {
+  position: relative;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+    width: 100%;
+    filter: grayscale(100%);
+    @include transition();
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}
+.imagegrid__title {
+  font-size: 24px;
+}
+
+.imagegrid__icon {
+  @include size(30px);
+  position: absolute;
+  right: 13px;
+  bottom: 4px;
+  background: url(/static/images/icon-linkedin-colored.svg) no-repeat center;
+  background-size:cover;
+}

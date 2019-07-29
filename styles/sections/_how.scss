@@ -1,0 +1,16 @@
+.how {
+  background:url(/static/images/bg-gray.svg);
+  padding-bottom: 160px;
+}
+
+.flipboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+@include media-breakpoint-up ("md") {
+  .flipboxes  {
+    justify-content: center;
+    flex-direction: row;
+  }
+}

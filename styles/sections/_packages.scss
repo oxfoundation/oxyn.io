@@ -1,0 +1,32 @@
+.all-packages {
+    background-color: #F4F7F9;
+    background-size:  auto 100%;
+    padding-top: 55px;
+    padding-bottom: 35px; 
+
+}
+
+.packages {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@include media-breakpoint-up("md") {
+  .packages {
+    flex-direction: row;
+  }
+}
+@include media-breakpoint-up("xl") {
+  .packages {
+    flex-wrap: nowrap;
+  }
+}
+
+@include media-breakpoint-only ("lg") {
+  .packages {
+    justify-content: space-around;
+  }
+}

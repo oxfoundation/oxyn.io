@@ -1,0 +1,29 @@
+.tab-links {
+  margin:0;
+  padding: 0;
+  display: flex;
+
+  .tab-item {
+    list-style: none;
+    &+.tab-item {
+      margin-left: spacer(2);
+    }
+  }
+
+  .tab-link {
+    @extend .fs-1;
+    display: block;
+    color: $black;
+    padding: 0 spacer(1);
+    text-transform: uppercase;
+
+
+    &:hover {
+      text-decoration: none;
+    }
+    &.active,
+    &:hover {
+      border-bottom: 2px solid $primary;
+    }
+  }
+}

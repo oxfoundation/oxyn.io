@@ -1,0 +1,26 @@
+
+.owl-item {
+    overflow-y: hidden;
+}
+.screens__item {
+    padding: 0 spacer(2);
+    transform: translateY(50px);
+    border-top-left-radius: 73px;
+    border-top-right-radius:73px;
+    
+    overflow: hidden;
+    
+    @include transition;
+    &:hover {
+        transform: translateY(0);
+    }
+
+    @include media-breakpoint-up(md) {
+        border-top-left-radius: 35px;
+        border-top-right-radius:35px;
+    }
+    @include media-breakpoint-up(lg) {
+        border-top-left-radius: 28px;
+        border-top-right-radius:28px;
+    }
+}

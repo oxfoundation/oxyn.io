@@ -1,0 +1,56 @@
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
+.v-center {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bordered-image {
+  border: 10px solid #FFFFFF;
+  box-shadow: 20px 20px 60px 0 rgba(17,18,19,0.20);
+  border-radius: 8px;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+.pt-large {
+  padding-top:70px;
+}
+.pb-large {
+  padding-bottom: 70px;
+}
+.py-large {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.reset-spacers {
+  margin:0!important;
+  padding: 0!important;
+}
+
+
+.container-small {
+  max-width: 940px;
+  padding-right: ($grid-gutter-width / 2);
+  padding-left: ($grid-gutter-width / 2);
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-mini {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.shadow {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.07);
+}

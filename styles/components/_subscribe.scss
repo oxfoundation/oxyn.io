@@ -1,0 +1,10 @@
+.subscribe {
+    position: relative;
+}
+.subscribe__button {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: $primary!important;
+    font-size: 30px;
+}

@@ -1,0 +1,71 @@
+.download {
+    background:url(/static/images/bg-gray.svg);
+    padding-bottom: 160px;
+  }
+
+  @include media-breakpoint-up ("md") {
+    .download {
+      padding-bottom: 360px;
+    }
+  }
+  
+  
+
+.downloadBox {
+    background: $black none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 17px 10px 15px 13px;
+    position: relative;
+    text-align: left;
+    @include transition(all 0.3s ease 0s);
+
+    &.disable {
+        opacity: 0.5;
+        &:hover {
+            background-color: $black;
+            cursor: default;
+        }
+
+    }
+    
+}
+
+.downloadBox:hover {
+    background-color: $primary;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+.downloadBox__link {
+    &:hover {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.sdl-img {
+    float: left;
+    width: 22%;
+}
+
+.sdl-img>img {
+    margin-top: 10px;
+}
+
+.sdl-content {
+    width: 88%;
+}
+
+.downloadBox p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 1px;
+}
+
+.downloadBox h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}

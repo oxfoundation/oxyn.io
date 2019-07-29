@@ -1,0 +1,104 @@
+// overide default bootstrap variables
+@import "./abstracts/_custom.variables"; 
+
+
+// vendors
+ @import "vendors/bootstrap/functions",
+          "./abstracts/bootstrap.variables",
+          "vendors/bootstrap/mixins",
+          "vendors/bootstrap/root",
+          "vendors/bootstrap/reboot",
+          "vendors/bootstrap/type",
+          "vendors/bootstrap/images",
+          "vendors/bootstrap/code",
+          "vendors/bootstrap/grid",
+          "vendors/bootstrap/tables",
+          "vendors/bootstrap/forms",
+          "vendors/bootstrap/buttons",
+          "vendors/bootstrap/transitions",
+          "vendors/bootstrap/dropdown",
+          "vendors/bootstrap/button-group",
+          "vendors/bootstrap/input-group",
+          "vendors/bootstrap/custom-forms",
+          "vendors/bootstrap/nav",
+          "vendors/bootstrap/navbar",
+          "vendors/bootstrap/card",
+          "vendors/bootstrap/breadcrumb",
+          "vendors/bootstrap/pagination",
+          "vendors/bootstrap/badge",
+          "vendors/bootstrap/jumbotron",
+          "vendors/bootstrap/alert",
+          "vendors/bootstrap/progress",
+          "vendors/bootstrap/media",
+          "vendors/bootstrap/list-group",
+          "vendors/bootstrap/close",
+          "vendors/bootstrap/modal",
+          "vendors/bootstrap/tooltip",
+          "vendors/bootstrap/popover",
+          "vendors/bootstrap/carousel",
+          "vendors/bootstrap/utilities",
+          "vendors/bootstrap/print";
+
+// // //abstracts
+@import
+  "./abstracts/functions",
+  "./abstracts/mixins",
+   "./abstracts/shame",
+   "./abstracts/helpers";
+
+// // //bases
+ @import
+  "./base/fonts",
+  "./base/general",
+  "./base/typography";
+
+// //components
+ @import
+  "./components/accordion",
+  "./components/board",
+  "./components/boxes",
+  "./components/buttons",
+  "./components/download",
+  "./components/cardline",
+  "./components/feature",
+  "./components/flipbox",
+  "./components/forms",
+  "./components/header",
+  "./components/icons",
+  "./components/imagegrid",
+  "./components/imagelist",
+  "./components/infocard",
+  "./components/lightlist",
+  "./components/logo",
+  "./components/modal",
+  "./components/numbers",
+  "./components/tables",
+  "./components/page-header",
+  "./components/page",
+  "./components/payment-icons",
+  "./components/screens",
+  "./components/sections",
+  "./components/separator",
+  "./components/subscribe",
+  "./components/tab-links",
+  "./components/twins";
+
+
+ @import
+  "./sections/campaign",
+  "./sections/dashboard",
+  "./sections/faq",
+  "./sections/footer",
+  "./sections/how",
+  "./sections/intro",
+  "./sections/oxprojects",
+  "./sections/packages",
+  "./sections/partners",
+  "./sections/press",
+  "./sections/roadmap",
+  "./sections/team",
+  "./sections/we",
+  "./sections/what";
+
+@import
+  "./themes/theme-light";

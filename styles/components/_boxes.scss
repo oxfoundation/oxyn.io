@@ -1,0 +1,64 @@
+.boxes {
+  $_border: 1px solid gray("200");
+
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.08);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  //height: 100%;
+  .box {
+
+    text-align: center;
+    background-position:center 10px;
+    background-repeat: no-repeat;
+    flex-basis: 100%;
+    min-height: 215px;
+    padding:80px 15px 20px 15px;
+    border-bottom: $_border;
+
+    .box__title {
+      @extend .fs-3;
+      font-weight: 500px;
+      color: $black;
+      margin-bottom: 7px;
+    }
+    .box__content {
+      @extend .fs-1;
+    }
+
+
+
+
+  }
+
+  @include media-breakpoint-up (md) {
+    .box {
+      flex-basis: 50%;
+
+
+      &.box-1 {
+        border-bottom: $_border;
+        border-right: $_border;
+      }
+      &.box-2 {
+        border-bottom: $_border;
+      }
+      &.box-3 {
+        border-right: $_border;
+        border-bottom: none;
+      }
+      &.box-4 {
+        border-right: $_border;
+        border-bottom: none;
+      }
+    }
+  }
+
+  @include media-breakpoint-up (lg) {
+    .box {
+      background-position:7px 10px;
+      padding:37px 30px;
+    }
+  }
+}

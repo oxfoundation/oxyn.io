@@ -1,0 +1,19 @@
+.imagelist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagelist__item {
+  margin:25px 35px;
+  display: block;
+  img {
+    @include transition();
+    filter: grayscale(100%);
+  }
+  &:hover {
+    img {
+      filter: grayscale(0);
+    }
+  }
+}

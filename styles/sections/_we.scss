@@ -1,0 +1,33 @@
+.we {
+  margin-top: -90px;
+  padding-bottom: 20px;
+}
+.we__text {
+  background-color: $white;
+  border-top-left-radius: 8px;
+  margin-top: -150px;
+  margin-left: -13%;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 7%;
+  font-size: 18px;
+}
+
+.we__title {
+    font-weight: 500;
+    font-size:24px;
+    margin-bottom: 25px;
+    color: $black;
+}
+
+.we__big-letters {
+  font-size: 64px;
+  color: #099999;
+}
+
+@include media-breakpoint-up ("md") {
+  
+}
+@include media-breakpoint-up ("lg") {
+  padding-bottom: 123px;
+}

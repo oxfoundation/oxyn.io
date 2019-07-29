@@ -1,0 +1,15 @@
+html {
+  font-size: 16px;
+}
+
+a {
+  cursor: pointer;
+}
+
+button,
+.btn {
+    &:focus {
+        outline:0!important;
+        box-shadow: none!important;
+    }
+}

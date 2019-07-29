@@ -1,0 +1,30 @@
+
+.modal-header {
+  position: relative;
+  padding: 10px;
+  border-bottom: none;
+  .close {
+    position: absolute;
+    opacity: 1;
+    right: 10px;
+    top: 10px;
+    color: $black;
+  }
+}
+
+.modal-body {
+  padding-bottom: 18px;
+}
+
+@include media-breakpoint-up ("md") {
+  .modal-header {
+    padding: 18px  $modal-header-padding/2 $modal-header-padding $modal-header-padding/2;
+    .close {
+      right: 20px;
+      top: 20px;
+    }
+  }
+  .modal-body {
+    padding-bottom: 100px;
+  }
+}

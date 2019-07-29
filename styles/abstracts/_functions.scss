@@ -1,0 +1,8 @@
+@function spacer($key: "1") {
+  @return map-get($spacers, $key);
+}
+
+@function getMapValue($map, $key: "xs") {
+  @return map-get($map, $key);
+} 
+

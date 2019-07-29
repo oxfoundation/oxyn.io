@@ -1,0 +1,35 @@
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons__icon {
+  background-color: rgba(#ffffff, 0.6);
+  border-radius: 100%;
+  @include size(38px);
+  text-align: center;
+  display: block;
+  margin-left:3px;
+  margin-right: 3px;
+  @include transition();
+  &:first-child {
+    margin-left: 0;
+  }
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
+.icons__icon-image {
+  height: 20px;
+  margin-top: 9px;
+}
+
+@include media-breakpoint-up("md") {
+  .icons {
+    justify-content: flex-end;
+  }
+  .icons__icon {
+    margin-left: 5px;
+  }
+}

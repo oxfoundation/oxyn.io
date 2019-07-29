@@ -1,0 +1,59 @@
+.flipbox {
+  @include size(100%, 320px);
+
+  margin-bottom: 10px;
+  position: relative;
+
+  .flipbox__action {
+    position: absolute;
+    bottom: 21px;
+    width: 100%;
+    z-index: 30;
+    left: 0;
+    padding: 0 spacer(5)
+  }
+
+}
+.flipbox__side {
+
+  height: 100%;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.12);
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 30px 10px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  backface-visibility: hidden;
+  transition-duration: 550ms;
+  transform-style: preserve-3d;
+
+}
+.flipbox__title {
+  @extend .fs-3;
+  color: $black;
+  font-weight: 500;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+.flipbox__description {
+  @extend .fs-1;
+}
+
+@include media-breakpoint-up ("sm") {
+  .flipbox {
+    height: 270px;
+  }
+}
+@include media-breakpoint-up ("md") {
+  .flipbox {
+    @include size(300px, 350px);
+    margin: 0 10px;
+  }
+
+}

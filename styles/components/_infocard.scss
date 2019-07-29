@@ -1,0 +1,117 @@
+$_offset:20px;
+
+.infocard {
+
+  position: relative;
+  flex-grow: 1;
+  margin-bottom: 90px;
+  background-color: $white;
+  border-radius: 8px;
+  box-shadow: 0 9px 19px 0 rgba(0,0,0,0.07);
+  text-align: center;
+  padding:30px 20px;
+  max-width: 450px;
+  width: 100%;
+
+  &.recomended {
+    margin-top: 5px;
+    border-bottom:5px solid $primary;
+    .infocard__recomended {
+      visibility: visible;
+    }
+  }
+
+}
+
+.infocard__recomended {
+  @extend .fs-0;
+  bottom: -30px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  visibility: hidden;
+  text-transform: uppercase;
+}
+
+.infocard__icon {
+  margin-top: -45px;
+  margin-bottom: 27px;
+}
+
+.infocard__title {
+  @extend .fs-5;
+  color: $black;
+}
+
+.infocard__subtitle {
+  @extend .fs-0;
+}
+
+.infocard__price {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    margin: 20px 0;
+}
+
+.infocard__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-height: 170px;
+    b {
+        color: $primary;
+    }
+}
+
+
+.infocard__button {
+  @extend .fs-0;
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  justify-content: space-between;
+  background-color: $white;
+  @include transition();
+
+}
+
+.infocard__btn-title {
+  color: $primary;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.infocard__btn-price {
+  color: $gray;
+}
+
+
+@include media-breakpoint-only ("md") {
+  .infocard {
+    margin-left: 2%;
+    margin-right: 2%;
+    flex:0 0 46%;
+  }
+}
+@include media-breakpoint-only ("lg") {
+  .infocard {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    flex:0 0 30%;
+    &:nth-child(4),
+    &:nth-child(5) {
+      flex: 46%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+}
+
+@include media-breakpoint-up ("xl") {
+  .infocard {
+    flex: 1!important;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+  }
+}

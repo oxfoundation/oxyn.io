@@ -1,0 +1,10 @@
+.feature {
+    .feature__icon {
+       @include size(47px);
+       color: $primary; 
+       margin-bottom: spacer(3);
+    }
+    .feature__title {
+        color: $black;
+    }
+}

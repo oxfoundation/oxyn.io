@@ -1,0 +1,34 @@
+$_footer-separator: 1px solid rgba(#ffffff, 0.4);
+
+.footer {
+  position: relative;
+  overflow-x: hidden;
+  background-color: $primary;
+  color: $white;
+  padding-top: 60px;
+  &:before {
+    position: absolute;
+    content: '';
+    background:url(/static/images/bg-oxyn-symbol.svg) no-repeat right center;
+    background-size: auto 110%;
+    right: -40px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+  a {
+    color: $white;
+  }
+}
+
+
+.footer__separator {
+    border-top: 1px solid rgba(#ffffff, 0.2);
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.footer__copyright {
+  opacity: 0.6;
+  border-top: $_footer-separator;
+}

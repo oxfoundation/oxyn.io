@@ -1,0 +1,18 @@
+.twins__image {
+  text-align: center;
+  padding-bottom: spacer(5);
+}
+
+.twins__content {
+    padding-bottom: spacer(5);
+}
+.twins__title {
+  font-size: 32px;
+  font-weight: 500;
+  color: $black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.twins__description {
+  @extend .fs-2;
+}

@@ -1,0 +1,51 @@
+.accordion {
+  margin:0 auto;
+}
+
+.accordion__card {
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 9px 19px 0 rgba(140,171,191,0.12);
+  overflow: hidden;
+  //border-radius: 8px;
+}
+
+.accordion__card-header {
+  font-size: 16px;
+  padding-right: 34px;
+  border-bottom: none;
+
+  color: $black;
+  border-radius: 8px;
+  cursor: pointer;
+  background-origin:content-box;
+  position: relative;
+}
+
+.accordion__icon {
+  // $_height: 10px;  
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  // margin-top: -$_height/2;
+  display: block;
+  transform: translateY(-50%);
+  color: $primary;
+  pointer-events: none;
+}
+
+
+.accordion__card-body {
+  @extend .fs-1;
+  padding-top: 0;
+}
+
+@include media-breakpoint-up ("md") {
+  .accordion__card-header {
+    font-size: 24px;
+    &:after {
+      $_height: 12px;
+      $_width: 20px;
+    }
+  }
+}
