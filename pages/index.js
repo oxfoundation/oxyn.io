@@ -54,7 +54,7 @@ export default class index extends Component {
           <Download />
           <We  />
           <How  />
-          <Campaign />
+          {/* <Campaign /> */}
           <FeatureList
             title="Bennefits of Oxyn"
             subTitle="5 min pitch is definitely it's not enough"
