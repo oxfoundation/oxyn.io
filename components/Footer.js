@@ -90,7 +90,7 @@ export default class Footer extends Component {
               <h5>Contact us</h5>
 
               <p>
-                <b>Phone number:</b> (802) 431-OXYN
+                <b>Phone number:</b> (802) 431-6996
                 <br />
                 <b>E-mail:</b> <a>hello@oxyn.io</a>
               </p>
