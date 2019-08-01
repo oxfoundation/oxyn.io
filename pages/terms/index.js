@@ -12,7 +12,7 @@ export default class Privacy extends Component {
   render() {
     return (
       <DefaultTemplate className="--white">
-        <PageWrapper title="Welcome to our Privacy Policy">
+        <PageWrapper title="Terms and conditions">
 
             <div class="page__content">
                 <h2>Introduction</h2>

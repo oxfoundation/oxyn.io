@@ -1,0 +1,1 @@
+zip ../oxynweb.zip -r * .[^.]*  -x ".git/*" "node_modules/*"

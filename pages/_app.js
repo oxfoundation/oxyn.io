@@ -16,7 +16,12 @@ import {
   faDumbbell,
   faChartPie,
   faLayerGroup,
-  faBullseye
+  faBullseye,
+  faHandshake,
+  faSearchDollar,
+  faGlobeAmericas,
+  faCogs,
+  faUsers
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -33,7 +38,12 @@ library.add(
   faDumbbell,
   faChartPie,
   faLayerGroup,
-  faBullseye
+  faBullseye,
+  faHandshake,
+  faSearchDollar,
+  faGlobeAmericas,
+  faCogs,
+  faUsers
 )
 
 

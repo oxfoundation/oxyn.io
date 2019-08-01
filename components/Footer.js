@@ -39,26 +39,22 @@ export default class Footer extends Component {
               <ul className="list-unstyled text-small">
                 <li>
                   <a
-                    href="https://s3-us-west-1.amazonaws.com/files.oxyn.io/Oxyn_Greenpaper.pdf"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Green Paper
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:hello@oxyn.io?subject=Become a Merchant">
                     Become a Merchant
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:hello@oxyn.io?subject=Run a Green Node">
-                    Run a Green Node
+                  <a href="mailto:hello@oxyn.io?subject=Become a Developer">
+                    For Developers
                   </a>
                 </li>
+
                 <li>
                   <a href="mailto:hello@oxyn.io?subject=For Business Corporations">
-                    For Business Corporations
+                    For Business
                   </a>
                 </li>
               </ul>
@@ -68,7 +64,7 @@ export default class Footer extends Component {
               <ul className="list-unstyled text-small">
                 <li>
                   <a
-                    href="https://s3-us-west-1.amazonaws.com/files.oxyn.io/Privacy_Policy.pdf"
+                    href="https://www.oxyn.io/privacy"
                     arget="_blank"
                     rel="noopener noreferrer"
                   >
@@ -77,7 +73,7 @@ export default class Footer extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://s3-us-west-1.amazonaws.com/files.oxyn.io/Terms_and_Conditions.pdf"
+                    href="https://www.oxyn.io/terms"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

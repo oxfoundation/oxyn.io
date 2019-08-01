@@ -20,7 +20,7 @@ export default class Download extends Component {
                                 {/* iOS */}
                                 <Col xs={12} sm={4} >
                                     <div className="downloadBox">
-                                        <a href="#" className="downloadBox__link">
+                                        <a href="https://apps.apple.com/app/id1469283324" target="_blank" className="downloadBox__link">
                                             <div className="sdl-img ">
                                                 <img src="static/images/apple.png " alt=" " />
                                             </div>
