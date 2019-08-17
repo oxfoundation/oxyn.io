@@ -18,21 +18,21 @@ export default class Download extends Component {
                             <Row>
 
                                 {/* iOS */}
-                                <Col xs={12} sm={4} >
+                                <Col xs={12} md={4} >
                                     <div className="downloadBox">
                                         <a href="https://apps.apple.com/app/id1469283324" target="_blank" className="downloadBox__link">
                                             <div className="sdl-img ">
                                                 <img src="static/images/apple.png " alt=" " />
                                             </div>
                                             <div className="sdl-content ">
-                                                <p>Download on the</p>
+                                                <p>Download on theee</p>
                                                 <h3>App Store</h3>
                                             </div>
                                         </a>
                                     </div>
                                 </Col>
 
-                                <Col xs={12} sm={4} >
+                                <Col xs={12} md={4} >
                                     <div className="downloadBox disable">
                                         <a href="" className="downloadBox__link" onClick ={ (e) => { e.preventDefault() }}>
                                             <div className="sdl-img ">
