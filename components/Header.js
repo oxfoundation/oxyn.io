@@ -107,18 +107,13 @@ class Header extends Component {
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link href="/how-it-works">
-                      <NavLink>How it works</NavLink>
+                    <Link href="/for-business">
+                      <NavLink>For Business</NavLink>
                     </Link>
                   </NavItem>
-                  {/* <NavItem>
+                  <NavItem>
                     <Link href="/about-us">
                       <NavLink>About Us</NavLink>
-                    </Link>
-                  </NavItem> */}
-                  <NavItem>
-                    <Link href="/faq">
-                      <NavLink>FAQ</NavLink>
                     </Link>
                   </NavItem>
                   <NavItem>
