@@ -21,7 +21,7 @@ export default class FeatureList extends Component {
         <Container>
           <Row className="align-items-center text-center">
             {this.items.map((item, index) => (
-              <Col sm="4" key={index}>
+              <Col xs="12" md="6" lg="4" key={index}>
                 <Feature
                   icon={item.icon}
                   title={item.title}

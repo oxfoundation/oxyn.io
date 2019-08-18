@@ -28,8 +28,6 @@ export default class We extends Component {
 
                 <p>That's it! We'll take care of rest: We will collect items from your location, clean them, sort them, and send them back to manufacturers.</p>
 
-                <div><Button color="primary" outline>Read More</Button></div>
-
               </div>
             </Col>
           </Row>

@@ -5,6 +5,7 @@ import FeatureList from "../sections/FeatureList";
 import Campaign from "../sections/Campaign";
 import How from "../sections/How";
 import We from "../sections/We";
+import Faq from '../sections/Faq'
 
 import Link from "next/link";
 import Download from "../sections/Download";
@@ -80,6 +81,7 @@ export default class index extends Component {
           subTitle="Global solution for global problem"
           list={this.featureList}
         />
+        <Faq />
       </DefaultTemplate>
     );
   }
