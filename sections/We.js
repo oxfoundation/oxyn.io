@@ -8,7 +8,7 @@ export default class We extends Component {
     return (
       <Section name="we" {...this.props}>
         <Container>
-          <Row className={this.props.reverse? "flex-row-reverse":""}>
+          <Row className={this.props.isreverse? "flex-row-reverse":""}>
             <Col md="5" className="d-flex align-items-center">
               <img src={this.props.img} alt="Founders of OxFoundation" className="bordered-image"></img>
             </Col>

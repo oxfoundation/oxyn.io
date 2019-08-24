@@ -16,7 +16,7 @@ export default class Contact extends Component {
           <p>
             <h5>In case of any questions please contact:</h5>
             <b>Email:</b>{" "}
-            <a href="mailto:support@oxyn.io">support@oxyn.io</a>
+            <a href="mailto:hello@oxyn.io">hello@oxyn.io</a>
             <br />
             <b>Phone:</b> (802) 431-6996
           </p>

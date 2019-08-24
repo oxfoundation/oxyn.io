@@ -13,29 +13,30 @@ export default class Faq extends Component {
         this.background = this.props.background || 'gray'
         this.Questions = [
           {
-            question: "Why not ICO?",
-            answer: "We want to distribute tokens among those who appreciate the Oxyn initiative. People like you, who are conscious consumers and respect the environment we live in. Although we are not blind to the dynamics of the market, we prefer to avoid users who hold Oxyn exclusively as an instrument for manipulation and speculation."
+            question: "How do you deliver products back?",
+            answer: "Right now we are validating a few options. The main alternative is to take packages away from the location you entered into our application. However, we also want to build a network of  \"Drop Off\" locations that will be easily accessible to our customers."
           },
           {
-            question: "How to mine Oxyns?",
-            answer: "All Oxyn tokens are pre-mined and will be distributed  to green consumers. The mining” is directly linked with environmental campaigns carried out by the OX foundation. So, in order to mine Oxyns currently, users  plant trees and are rewarded with minted Oxyns."
+            question: "Where is the Oxyn service available?",
+            answer: "Currently, we cover only the NYC area, but we are working hard to involve additional resources and investment to expand our coverage area."
           },
           {
-            question: "When and how may I use my Oxyns?",
-            answer: "You will be able to transfer all your Oxyns to our mobile and desktop wallets as soon as it’s launched. Your wallet will also show you all merchants accepting Oxyn payments. The OX foundation is actively working with the businesses to help them utilize and on-board their products to the Oxyn network."
-          },
-    
-          {
-            question: "What type of exclusive offers do I get?",
-            answer: "Exclusive offers are pretty diverse. It can be an exclusive Coffee Macchiato at a local coffee shops, a subscription to National Geographic, a flight ticket from NYC to LA, or a car wash voucher. And if you’re paying with Oxyn, you do a lot more for the environment than when you would pay with Visa, Mastercard, Bitcoin or Monero."
+            question: "What is the economy behind Oxyn cryptocurrency?",
+            answer: "The Economy of Oxyn is the same as for Stabilcoin or Facebook Libra. Simply it means that behind each Oxyn there is an appropriate amount of US dollars (or any other currency). So, it might be exchanged back to FIAT money any time."
           },
     
+          {
+            question: "Where can I buy Oxyn cryptocurrency?",
+            answer: "Individuals can sell Oxyns at any time, but won't buy it. The only way will be to go green - by collecting and sending used product packages back to the manufacturer. This allows different businesses to provide additional perks to people who care for the environment and hold Oxyns."
+          },
+    
     
           {
-            question: "How the Oxyn token economics looks like?",
-            answer: "1 Billion tokens are  pre-mined<ul> <li> 70% public distribution </li><li> 14% OX foundation </li><li> 5% Ecosystem partners </li><li> 5% Advisors </li><li> 6% Founders </li> </ul>"
+            question: "How can I support Oxyn?",
+            answer: "We are still in the early stages of development, so your support is more important than you might think. You can download our application, follow us on social media, spread the word about Oxyn and assist us with ideas and feedback. This will help us to continue growing and moving in the right direction towards a more waste-free world."
           }
         ]
+    
     }
 
 

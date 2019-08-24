@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col, Input, Container } from "reactstrap";
 import Link from "next/link";
-
-// import iconFacebook from '../images/icon-facebook.svg';
-// import iconTwitter from '../images/icon-twitter.svg';
-// import iconYoutube from '../images/icon-youtube.svg';
-// import iconMedium from '../images/icon-medium.svg';
-// import iconLinkedin from '../images/icon-linkedin.svg'
+import { FiLinkedin, FiTwitter, FiFacebook, FiLink, FiChevronRight} from 'react-icons/fi'
 
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 
@@ -24,10 +19,7 @@ export default class Footer extends Component {
               <div className="subscribe">
                 <Input placeholder="Enter your email" />
                 <a className="subscribe__button">
-                  <Icon
-                    icon="chevron-circle-right"
-                    className="subscribe__button-icon"
-                  />
+                  <FiChevronRight />
                 </a>
               </div>
             </Col>
@@ -98,10 +90,7 @@ export default class Footer extends Component {
                   rel="noopener noreferrer"
                   href="https://twitter.com/oxyncommunity"
                 >
-                  <Icon
-                    icon={["fab", "twitter"]}
-                    className="icons__icon-image"
-                  />
+                  <FiTwitter size="1.3em" className="text-primary"/>
                 </a>
                 <a
                   className="icons__icon --facebook"
@@ -109,10 +98,7 @@ export default class Footer extends Component {
                   rel="noopener noreferrer"
                   href="https://www.facebook.com/oxyncommunity/"
                 >
-                  <Icon
-                    icon={["fab", "facebook"]}
-                    className="icons__icon-image"
-                  />
+                  <FiFacebook size="1.3em" className="text-primary"/>
                 </a>
                 {/* <a
                   className="icons__icon --youtube"
@@ -131,10 +117,7 @@ export default class Footer extends Component {
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/company/ox-foundation/"
                 >
-                  <Icon
-                    icon={["fab", "linkedin"]}
-                    className="icons__icon-image"
-                  />
+                  <FiLinkedin size="1.3em" className="text-primary"/>
                 </a>
                 {/* <a
                   className="icons__icon --reddit"

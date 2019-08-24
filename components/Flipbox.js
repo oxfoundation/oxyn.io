@@ -1,41 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-export default class Cardbox extends Component {
-  render() {
+export default function Flipbox(props) {
 
-
-    var mainIcon;
-
-    switch (this.props.icon) {
-      case 'consumer':
-          mainIcon = '/static/images/icon-consumer.svg';
-        break;
-
-      case 'businesses':
-          mainIcon = '/static/images/icon-businesses.svg';
-        break;
-
-      case 'greenorganizations':
-          mainIcon = '/static/images/icon-greenorganizations.svg';
-        break;
-
-        default:
-          mainIcon = GreenOrganizations;
-    }
-
-    return (
-
-      <div className="flipbox">
-        <div className="flipbox__side ">
-          <img src={mainIcon} alt="" />
-          <div className="flipbox__title">{this.props.title}</div>
-          <div className="flipbox__description">{this.props.content}</div>
-          <div className="flipbox__action">
-            {this.props.children}
-          </div>
-        </div>
+  var Icon = props.icon
+  return (
+    <div className="flipbox">
+    <div className="flipbox__side ">
+      <Icon size="3em" className="text-primary" /> 
+      <div className="flipbox__title">{props.title}</div>
+      <div className="flipbox__description">{props.content}</div>
+      <div className="flipbox__action">
+        {props.children}
       </div>
-
-    )
-  }
+    </div>
+  </div>
+  )
 }
