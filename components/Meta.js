@@ -8,11 +8,11 @@ export default class Meta extends Component {
 
   constructor(props) {
     super(props);
-    this.title = this.props.title || "Let's re-use.Blockchain against plastic";
+    this.title = this.props.title || "Let's re-use. Blockchain against plastic";
     this.shareTitle = "After use send product packages back and get money!" 
     this.shareDescription = "Cryptocurrency and blockchain ecosystem which allows you effortlessly to send packages back to the manufacturer for re-use or recycling purposes."
-    this.shareImageTwitter = "/static/images/share/shareFacebook.png"
-    this.shareImageFacebook = "/static/images/share/shareTwitter.png"
+    this.shareImageTwitter = "https://oxyn.io/static/images/share/shareFacebook.png"
+    this.shareImageFacebook = "https://oxyn.io/static/images/share/shareTwitter.png"
   }
 
 

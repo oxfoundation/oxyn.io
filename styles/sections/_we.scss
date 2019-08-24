@@ -1,11 +1,15 @@
 .we {
-  margin-top: -90px;
+  // margin-top: -90px;
+  padding-top:20px;
   padding-bottom: 20px;
+  @include media-breakpoint-up ("lg") {
+    padding: 50px 0 100px 0;
+  }
 }
 .we__text {
   background-color: $white;
   border-top-left-radius: 8px;
-  margin-top: -150px;
+  margin-top: -50px;
   margin-left: -13%;
   padding-left: 17%;
   padding-right: 17%;
@@ -17,6 +21,7 @@
     font-weight: 500;
     font-size:24px;
     margin-bottom: 25px;
+    padding-top: 50px;
     color: $black;
 }
 
@@ -28,6 +33,5 @@
 @include media-breakpoint-up ("md") {
   
 }
-@include media-breakpoint-up ("lg") {
-  padding-bottom: 123px;
-}
+
+

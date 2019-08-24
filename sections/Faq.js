@@ -44,7 +44,7 @@ export default class Faq extends Component {
         <Section name={`s-faq pt-large pb-large --${this.background}`}>
         <SectionTitle
           title="FAQ"
-          subTitle="To ask questions use Social Networks or email hello@sweenk.com"/>
+          subTitle="To ask questions use Social Networks or email hello@oxyn.io"/>
 
         <div className="container-small">
           <Accordion cards={this.Questions} />

@@ -9,13 +9,14 @@ export default class FeatureList extends Component {
 
   constructor(props) {
     super(props);
+    this.background = this.props.background || 'gray'
     this.items = this.props.list;
   }
 
 
   render() {
     return (
-      <Section name="what pt-large">
+      <Section name={`what pt-large --${this.background}`}>
         <SectionTitle title={this.props.title} subTitle={this.props.subTitle} />
         
         <Container>

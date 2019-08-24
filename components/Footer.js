@@ -114,7 +114,7 @@ export default class Footer extends Component {
                     className="icons__icon-image"
                   />
                 </a>
-                <a
+                {/* <a
                   className="icons__icon --youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -124,7 +124,7 @@ export default class Footer extends Component {
                     icon={["fab", "youtube"]}
                     className="icons__icon-image"
                   />
-                </a>
+                </a> */}
                 <a
                   className="icons__icon --linkedin"
                   target="_blank"
@@ -136,7 +136,7 @@ export default class Footer extends Component {
                     className="icons__icon-image"
                   />
                 </a>
-                <a
+                {/* <a
                   className="icons__icon --reddit"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -146,17 +146,17 @@ export default class Footer extends Component {
                     icon={["fab", "reddit-alien"]}
                     className="icons__icon-image"
                   />
-                </a>
+                </a> */}
               </div>
             </Col>
           </Row>
           <div className="footer__copyright py-3 mt-3">
             <Row>
               <Col xs="12" md="6" className="text-center text-md-left">
-                All rights reserved © 2018
+                All rights reserved © 2019
               </Col>
               <Col xs="12" md="6" className="text-center text-md-right">
-                developed by <b>Oxyn</b>
+                developed by <b>OxFoundation</b>
               </Col>
             </Row>
           </div>
