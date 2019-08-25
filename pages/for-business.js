@@ -10,16 +10,16 @@ export default class AboutUs extends Component {
   constructor(props) {
     super(props);
 
-    this.featureList = [
+    this.businessList = [
       {
-        title: 'Convince "Generation Green"',
+        title: 'Convince \"Generation Green\"',
         description:
-          "One of the main advantages of blockchain is transparency. Now brands can show how many items re-used and how much plastics eliminated, so you are never in any doubt about the real facts and statistics."
+          "Millennials are now the largest demographic in the workforce, which has led to changing trends in consumer behavior as their spending power increases. 75% of millennials are willing to pay extra for sustainable products, and they are the most environmentally-conscious generation to date, so making your business more waste-free is sure to give you a headstart with millennial buyers. The same-old ways of conducting business won't cut it anymore - businesses have to do more in the way of sustainability and helping the environment."
       },
       {
         title: "Protect your product",
         description:
-          "Modern payment systems are extremely inefficient for microtransactions. Oxyn allows us to make transactions for each package in seconds, and it’s absolutely FREE."
+          "Our technology allows you to set a unique encrypted code for individual products, and track them through blockchain. This guarantees your product protection against falsification."
       },
       {
         title: "Re-invent packaging",
@@ -66,7 +66,7 @@ export default class AboutUs extends Component {
             but that's not the only benefit your company will receive:
           </p>
 
-            {this.featureList.map((item, index) => (
+            {this.businessList.map((item, index) => (
               <div className="card mb-5" key={index}>
                 <div className="card-body">
                   <h3 className="text-dark">{item.title}</h3>

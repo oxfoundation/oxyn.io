@@ -3,8 +3,6 @@ import { Row, Col, Input, Container } from "reactstrap";
 import Link from "next/link";
 import { FiLinkedin, FiTwitter, FiFacebook, FiLink, FiChevronRight} from 'react-icons/fi'
 
-import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
-
 export default class Footer extends Component {
   render() {
     return (
